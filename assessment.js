@@ -11,9 +11,8 @@ assessmentButton.onclick = () => {
     return;
   }
 
-
   // 診断結果表示エリアの作成
-  // resultDivided.innerText = '';
+  resultDivided.innerText = '';
   const header = document.createElement('h3');
   header.innerText = '診断結果';
   resultDivided.appendChild(header);
